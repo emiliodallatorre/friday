@@ -16,8 +16,8 @@ def main():
         if input_request == "/shutdown":
             break
 
-        # output: str = brain.process(input_request)
-        # current_channel.output(output)
+        output: str = brain.process(input_request)
+        current_channel.output(output)
 
 
 main()

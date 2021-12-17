@@ -21,4 +21,4 @@ class Processor:
             return result
         else:
             logging.exception("Nessuna risposta per: " + input_request)
-            return "Non ho ancora una risposta per questo, mi dispiace signore."
+            return "Non so proprio che dire."
